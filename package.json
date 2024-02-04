@@ -6,10 +6,10 @@
   },
   "name": "second_node",
   "version": "1.0.0",
-  "main": "server2.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node server2.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nirmal",
