@@ -2,7 +2,7 @@ import express from 'express'
 const app = express()
 
 app.get('/', function (req, res) {
-  res.send('Hello World I am nirmal bhuva , i am from surat')
+  //res.send('Hello World I am nirmal bhuva , i am from surat ')
   var customized_idli = [{
         
     name : 'rava idli',
