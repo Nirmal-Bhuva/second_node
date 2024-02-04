@@ -3,6 +3,28 @@ const app = express()
 
 app.get('/', function (req, res) {
   res.send('Hello World I am nirmal bhuva , i am from surat')
+  var customized_idli = [{
+        
+    name : 'rava idli',
+    size : '10 cm diameter',
+    is_sambhar : true,
+    is_chutney : false,
+    article : "welcome to south india and would love to serve IDLI",
+    article1 : "welcome to south india and would love to serve IDLI"
+    
+
+},
+{
+    
+    name : 'nirmal bhuva',
+    size : '10 cm diameter',
+    is_sambhar : true,
+    is_chutney : false,
+    article : "welcome to south india and would love to serve IDLI",
+    article1 : "welcome to south india and would love to serve IDLI"
+    
+
+}]
 })
 
 app.get('/' , (req , res) => {
