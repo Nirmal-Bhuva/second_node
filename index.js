@@ -25,6 +25,8 @@ app.get('/', function (req, res) {
     
 
 }]
+res.send(customized_idli)
+res.send(`${customized_idli} dont try to make jokes`)
 })
 
 app.get('/' , (req , res) => {
