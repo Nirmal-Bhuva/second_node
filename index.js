@@ -5,15 +5,15 @@ app.get('/', function (req, res) {
   res.send('Hello World I am nirmal bhuva , i am from surat')
 })
 
-app.get('/chicken' , (req , res) => {
+app.get('/' , (req , res) => {
     res.send("sure sir , i would love to serve a chicken")
 })
 
-app.get('/idli' , (req , res) => {
+app.get('/' , (req , res) => {
     res.send("welcome to south india and would love to serve IDLI")
 })
 
-app.get('/idli2' , (req , res) => {
+app.get('/' , (req , res) => {
     var customized_idli = [{
         
         name : 'rava idli',
